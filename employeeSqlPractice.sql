@@ -1,1 +1,1 @@
-Select * from interview.employees limit 10;
+Select * from interview.employees order by salary desc limit 10;
