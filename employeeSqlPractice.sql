@@ -1,0 +1,1 @@
+Select * from interview.employees limit 10;
