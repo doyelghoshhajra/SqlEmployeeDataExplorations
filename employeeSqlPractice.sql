@@ -67,7 +67,6 @@ SELECT max(datediff(CURDATE(), employees.hire_date)) AS max_exp, employees.first
      where employees.department_id = departments.department_id
      GROUP BY departments.department_name;
 
-#8 Find third highest employee per department
 
 
 
