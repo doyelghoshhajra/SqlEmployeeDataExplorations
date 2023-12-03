@@ -12,7 +12,7 @@ select employees.* from employees, departments
 where employees.department_id = departments.department_id
 and departments.department_name = "Marketing";
 
-#2-a Adding one record of null department_id to employees and running #2&#3 to check if it reads the null value
+#2-a Adding one record of null department_id to employees and running #2-1&#2-2 to check if it reads the null value
 INSERT INTO employees
 VALUES (
 	405,
